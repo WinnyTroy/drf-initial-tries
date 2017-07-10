@@ -7,15 +7,8 @@
 
   Authentication.$inject = ['$cookies', '$http'];
 
-  /**
-  * @namespace Authentication
-  * @returns {Factory}
-  */
+
   function Authentication($cookies, $http) {
-    /**
-    * @name Authentication
-    * @desc The Factory to be returned
-    */
     var Authentication = {
       register: register
     };
